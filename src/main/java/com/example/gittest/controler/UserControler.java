@@ -10,4 +10,9 @@ public class UserControler {
 	public String getMesg() {
 		return "hi";
 	}
+	
+	@GetMapping("/getname")
+	public String getname() {
+		return "hi wellcome";
+	}
 }
