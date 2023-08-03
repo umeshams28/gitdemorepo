@@ -15,4 +15,9 @@ public class UserControler {
 	public String getname() {
 		return "hi wellcome";
 	}
+	
+	@GetMapping("/newmethod")
+	public String getExtra() {
+		return "this is new method";
+	}
 }
